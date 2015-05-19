@@ -14,7 +14,7 @@ namespace Tests.BusinessTests
     public class BusinessTests
     {
         private Mock<IRepository<Person>> mock;
-
+        
         public BusinessTests()
         {
             mock = new Mock<IRepository<Person>>();
